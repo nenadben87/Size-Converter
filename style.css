@@ -1,0 +1,145 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #897338;
+  background-color: #e5e5e5;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-title h1 {
+  margin-bottom: 0.4rem;
+}
+
+.border-bottom-line {
+  background-color: #384e89;
+  width: 80%;
+  height: 3px;
+  margin-bottom: 1.5rem;
+}
+
+.amount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.amount p {
+  margin-bottom: 0.5rem;
+}
+
+.amount input {
+  padding-top: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.from-to {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+select {
+  width: 6.3rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.convert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.convert-btn {
+  padding: 1rem 1.7rem;
+  color: white;
+  background-color: #384e89;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.convert-btn:hover {
+  background-color: #4b5f94;
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.output-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #dc383d;
+}
+
+@media(min-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+  
+  .amount-input {
+    width: 30%;
+  }
+  
+  select {
+    width: 20rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media(min-width: 1360px) {
+  .from-to {
+    margin-bottom: 3rem;
+  }
+
+  .output {
+    font-size: 1.5rem;
+  }
+
+  .output-error {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
